@@ -1,0 +1,38 @@
+body{
+    background-color: #272343;
+    font-family: 'Pacifico', cursive;font-family: 'Pacifico', cursive;
+}
+
+.heading{
+    color:aquamarine;
+}
+
+.timer{
+    color:#fff;
+    text-align: center;
+    width:20rem;
+    height:20rem;
+    border:5px solid #fff;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{
+    width:100%;
+}
+
+.fa-play, .fa-rotate-right{
+    color: #e3f6f5;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.fa-play:hover,
+.fa-rotatae-right:hover{
+    color:#e3f6f5;
+    border: 2px solid #e3f6f5;
+    transition: 0.3ease;
+}
