@@ -36,3 +36,12 @@ body{
     border: 2px solid #e3f6f5;
     transition: 0.3ease;
 }
+
+.show_message{
+    display: block;
+    padding: 1rem 0;
+    color: #272343;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+    background-color: #e3f6f5;
+}
