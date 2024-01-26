@@ -49,3 +49,7 @@ function start() {
 
 
 }
+
+function modal() {
+    alert("modal");
+  }
