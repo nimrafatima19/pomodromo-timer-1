@@ -1,3 +1,6 @@
+let box = document.getElementById("popup");
+box.style.display="none";
+
 let minutes = 25;
 let seconds = "00";
 
