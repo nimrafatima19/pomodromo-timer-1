@@ -1,5 +1,6 @@
-let box = document.getElementById("popup");
-box.style.display="none";
+
+let boxs = document.getElementById("boxs");
+boxs.style.display="none";
 
 let minutes = 25;
 let seconds = "00";
@@ -53,6 +54,9 @@ function start() {
 
 }
 
+
 function modal() {
     alert("modal");
+    
   }
+  
