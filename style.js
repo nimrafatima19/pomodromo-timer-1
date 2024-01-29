@@ -1,6 +1,6 @@
 
-let boxs = document.getElementById("boxs");
-boxs.style.display="none";
+// let boxs = document.getElementById("boxs");
+// boxs.style.display="none";
 
 let minutes = 25;
 let seconds = "00";
