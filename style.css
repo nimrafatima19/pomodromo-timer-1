@@ -135,6 +135,9 @@ body{
     width: 70%;
     height: 30px;
     background-color: rgb(194, 191, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .buttons{
     width:100%;
@@ -148,8 +151,9 @@ body{
 
 }
 input{
-    width:20px;
-    height: 15px;
+    width:60px;
+    height: 25px;
+    padding-top: 10px;
 
 }
 .text{
@@ -167,19 +171,30 @@ input{
 }
 .btn_bottom{
     width:100%;
-    height: 15px;
-    font-size: 0.2rem;
+    height: auto;
+    font-size: 0.8rem;
     background-color: #272343;
     gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
 
 }
 .bottom_btn{
-    width: 50px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .plus_btn{
-    width: 0.9rem;
+    width: 10px;
     height: 15px;
     font-size: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
