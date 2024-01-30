@@ -11,7 +11,6 @@ var bell = new Audio("bell.mp3");
 function template() {
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
-
 }
 
 function start() {
