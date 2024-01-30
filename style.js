@@ -1,4 +1,3 @@
-
 let boxs = document.getElementById("boxs");
 boxs.style.display="none";
 
@@ -11,6 +10,7 @@ var bell = new Audio("bell.mp3");
 function template() {
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
+
 }
 
 function start() {
@@ -56,14 +56,16 @@ function start() {
 
 function modal() {
     let boxs = document.getElementById("boxs");
-    boxs.style.display="block";
-    boxs.style.display="flex";
-    boxs.style.alignItems="center";
-    boxs.style.justifyContent="center";
-    
+    boxs.style.display = "block";
+    boxs.style.display = "flex";
+    boxs.style.alignItems = "center";
+    boxs.style.justifyContent = "center";
+
+
+
   }
-  
-  function hidn() {
+
+  function hidn(){
     let boxs = document.getElementById("boxs");
-    boxs.style.display="none";
+    boxs.style.display = "none";
   }

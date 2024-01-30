@@ -12,7 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
 
 .timer{
@@ -66,14 +66,14 @@ body{
 
 .box1{
     width:90%;
-    
+
     /* background-color: blueviolet; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-   
-    
+
+
 }
 /* .set_time{
     width:90%;
@@ -90,7 +90,6 @@ body{
     align-items: center;
     justify-content: center;
     gap:5px;
-
 }
 .focus1{
     width:100%;
@@ -108,11 +107,11 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 5px;
-    
+
 }
 .set_time{
     width:100%;
-   
+
     /* background-color: #f6f4fd; */
     display: flex;
     align-items: center;
@@ -147,7 +146,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    
+
     flex-wrap: wrap;
 
 }
