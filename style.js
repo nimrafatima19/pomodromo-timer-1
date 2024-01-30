@@ -1,5 +1,4 @@
-let boxs = document.getElementById("boxs");
-boxs.style.display="none";
+
 
 let minutes = 25;
 let seconds = "00";
@@ -52,6 +51,9 @@ function start() {
 
 
 }
+
+let boxs = document.getElementById("boxs");
+boxs.style.display="none";
 
 
 function modal() {
