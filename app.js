@@ -62,7 +62,7 @@ function start() {
 
 var bt = document.getElementById("bt");
 bt.style.display = "flex";
-bt.style.position = "fixed";
+// bt.style.position = "fixed";
 
 function modal() {
     let boxs = document.getElementById("boxs");
