@@ -47,7 +47,7 @@
       </div>
 
       <!-- Start and Reset Buttons -->
-      <div class="container d-flex justify-content-center align-items-center my-5">
+      <div class="container d-flex justify-content-center align-items-center my-5" id="bt">
         <button class="btn" onclick="start()"><i class="fa-solid fa-play fa-2x"></i></button>
         <a href="index.html"><i class="fa-solid fa-rotate-right fa-2x"></i></a>
         <button class="btn" onclick="modal()"><i class="fa-solid fa-gear fa-2x"></i></button>
@@ -93,14 +93,14 @@
       <div class="set_time">
         <div class="time1">
           <div class="head1">Focus</div>
-          <div class="input1"><button class="plus_btn">+</button><input type="number"><button class="plus_btn">-</button></div>
+          <div class="input1"><button class="plus_btn" id="incrementButton">+</button><input type="number"><button class="plus_btn">-</button></div>
           <div class="text">minutes</div>
 
         </div>
 
         <div class="time1">
           <div class="head1">Break</div>
-          <div class="input1"><button class="plus_btn">+</button><input type="number"><button class="plus_btn">-</button></div>
+          <div class="input1"><button class="plus_btn" id="incrementButton">+</button><input type="number" id="counter"><button class="plus_btn">-</button></div>
           <div class="text">minutes</div>
         </div>
       </div>

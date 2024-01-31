@@ -1,4 +1,12 @@
 
+// Get the button and counter elements
+const incrementButton = document.getElementById('incrementButton');
+const counter = document.getElementById('counter');
+
+
+var boxs = document.getElementById("boxs");
+boxs.style.display="none";
+
 
 let minutes = 25;
 let seconds = "00";
@@ -52,9 +60,9 @@ function start() {
 
 }
 
-let boxs = document.getElementById("boxs");
-boxs.style.display="none";
-
+var bt = document.getElementById("bt");
+bt.style.display = "flex";
+bt.style.position = "fixed";
 
 function modal() {
     let boxs = document.getElementById("boxs");
@@ -62,12 +70,17 @@ function modal() {
     boxs.style.display = "flex";
     boxs.style.alignItems = "center";
     boxs.style.justifyContent = "center";
+    boxs.style.position = "absolute"
 
 
 
   }
+  
 
   function hidn(){
     let boxs = document.getElementById("boxs");
     boxs.style.display = "none";
   }
+
+  // Set initial count
+let count = 0;
