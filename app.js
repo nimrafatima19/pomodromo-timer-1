@@ -86,7 +86,9 @@ function modal() {
 const numberInput1 = document.getElementById('numberInput1');
 const numberInput2 = document.getElementById('numberInput2');
 const incrementButton1 = document.getElementById('incrementButton1');
+const decrementButton1 = document.getElementById('decrementButton1');
 const incrementButton2 = document.getElementById('incrementButton2');
+const decrementButton2 = document.getElementById('decrementButton2');
 
 // Add event listener to the first button
 incrementButton1.addEventListener('click', function() {
@@ -100,6 +102,14 @@ incrementButton1.addEventListener('click', function() {
   numberInput1.value = currentValue1;
 });
 
+decrementButton1.addEventListener('click', function() {
+    let currentValue1 = parseInt(numberInput1.value);
+    if (currentValue1 > 0){
+    currentValue1--;
+    numberInput1.value = currentValue1;
+}
+  });
+
 // Add event listener to the second button
 incrementButton2.addEventListener('click', function() {
   // Get the current value of the second input field and convert it to a number
@@ -107,9 +117,17 @@ incrementButton2.addEventListener('click', function() {
   
   // Increment the value by one
   currentValue2++;
-
-  // Update the second input field with the new value
-  numberInput2.value = currentValue2;
+    // Update the second input field with the new value
+    numberInput2.value = currentValue2;
 });
+
+decrementButton2.addEventListener('click', function() {
+    let currentValue2 = parseInt(numberInput2.value);
+    if (currentValue2 > 0){
+    currentValue2--;
+    numberInput2.value = currentValue2;
+}
+  });
+
 
 
