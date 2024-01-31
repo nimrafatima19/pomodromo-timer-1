@@ -1,7 +1,7 @@
 
 // Get the button and counter elements
-const incrementButton = document.getElementById('incrementButton');
-const counter = document.getElementById('counter');
+// const incrementButton = document.getElementById('incrementButton');
+// const counter = document.getElementById('counter');
 
 
 var boxs = document.getElementById("boxs");
@@ -82,5 +82,34 @@ function modal() {
     boxs.style.display = "none";
   }
 
-  // Set initial count
-let count = 0;
+// Get the input fields and button elements
+const numberInput1 = document.getElementById('numberInput1');
+const numberInput2 = document.getElementById('numberInput2');
+const incrementButton1 = document.getElementById('incrementButton1');
+const incrementButton2 = document.getElementById('incrementButton2');
+
+// Add event listener to the first button
+incrementButton1.addEventListener('click', function() {
+  // Get the current value of the first input field and convert it to a number
+  let currentValue1 = parseInt(numberInput1.value);
+  
+  // Increment the value by one
+  currentValue1++;
+
+  // Update the first input field with the new value
+  numberInput1.value = currentValue1;
+});
+
+// Add event listener to the second button
+incrementButton2.addEventListener('click', function() {
+  // Get the current value of the second input field and convert it to a number
+  let currentValue2 = parseInt(numberInput2.value);
+  
+  // Increment the value by one
+  currentValue2++;
+
+  // Update the second input field with the new value
+  numberInput2.value = currentValue2;
+});
+
+
